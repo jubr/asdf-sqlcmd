@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-set -xeuo pipefail
+#set -x # debug much?
+set -euo pipefail
 
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded.
 GH_REPO="https://github.com/microsoft/go-sqlcmd"
